@@ -32,7 +32,7 @@ export default function Home({navigation}) {
       name: 'Restrict box around a circle',
       using: 'Pan-Gesture-Handler and Reanimated',
       onPress: () => {
-        navigation?.navigate(routes.clockSkia);
+        navigation?.navigate(routes.restrictedBox);
       },
     },
 
