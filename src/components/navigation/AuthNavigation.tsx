@@ -11,6 +11,7 @@ import RestrictedBox from '../screens/RestrictedBox';
 import PrespectiveMenu from '../screens/PrespectiveMenu';
 import OnBoarding from '../screens/OnBoarding';
 import ZoominOut from '../screens/ZoominOut';
+import InstagramLike from '../screens/InstagramLike';
 
 const Stack = createNativeStackNavigator();
 export default function AuthNavigation() {
@@ -28,6 +29,7 @@ export default function AuthNavigation() {
         />
         <Stack.Screen name={routes.onBoarding} component={OnBoarding} />
         <Stack.Screen name={routes.zoominOut} component={ZoominOut} />
+        <Stack.Screen name={routes.instaLike} component={InstagramLike} />
       </Stack.Navigator>
     </NavigationContainer>
   );

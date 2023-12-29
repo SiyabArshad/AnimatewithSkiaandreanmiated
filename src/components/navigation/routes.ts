@@ -5,4 +5,5 @@ export const routes = {
   prespectiveMenu: 'prespectiveMenu',
   onBoarding: 'onBoarding',
   zoominOut: 'zoominOut',
+  instaLike: 'instaLike',
 };

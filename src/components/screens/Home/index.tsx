@@ -59,7 +59,7 @@ export default function Home({navigation}) {
       name: 'Instagram Like Animation',
       using: 'Reanimated',
       onPress: () => {
-        navigation?.navigate(routes.clockSkia);
+        navigation?.navigate(routes.instaLike);
       },
     },
 
