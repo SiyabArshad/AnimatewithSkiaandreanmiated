@@ -41,7 +41,7 @@ export default function Home({navigation}) {
       name: 'Animated Onboarding animation',
       using: 'Pan-Gesture-Handler and Reanimated',
       onPress: () => {
-        navigation?.navigate(routes.clockSkia);
+        navigation?.navigate(routes.onBoarding);
       },
     },
 
@@ -122,7 +122,7 @@ export default function Home({navigation}) {
       name: 'Perspective Menu Animation',
       using: 'Reanimated',
       onPress: () => {
-        navigation?.navigate(routes.clockSkia);
+        navigation?.navigate(routes.prespectiveMenu);
       },
     },
 

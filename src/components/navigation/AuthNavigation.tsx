@@ -8,6 +8,8 @@ import {routes} from './routes';
 import Home from '../screens/Home';
 import ClockSkia from '../screens/Clock';
 import RestrictedBox from '../screens/RestrictedBox';
+import PrespectiveMenu from '../screens/PrespectiveMenu';
+import OnBoarding from '../screens/OnBoarding';
 
 const Stack = createNativeStackNavigator();
 export default function AuthNavigation() {
@@ -19,6 +21,11 @@ export default function AuthNavigation() {
         <Stack.Screen name={routes.home} component={Home} />
         <Stack.Screen name={routes.clockSkia} component={ClockSkia} />
         <Stack.Screen name={routes.restrictedBox} component={RestrictedBox} />
+        <Stack.Screen
+          name={routes.prespectiveMenu}
+          component={PrespectiveMenu}
+        />
+        <Stack.Screen name={routes.onBoarding} component={OnBoarding} />
       </Stack.Navigator>
     </NavigationContainer>
   );
