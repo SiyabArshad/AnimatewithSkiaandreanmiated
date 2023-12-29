@@ -46,20 +46,11 @@ export default function Home({navigation}) {
     },
 
     {
-      id: 5,
-      name: 'Dark mode using interpolate',
-      using: 'Reanimated',
-      onPress: () => {
-        navigation?.navigate(routes.clockSkia);
-      },
-    },
-
-    {
       id: 6,
       name: 'Zoom in and out',
       using: 'Pinch-Gesture-Handler and Reanimated',
       onPress: () => {
-        navigation?.navigate(routes.clockSkia);
+        navigation?.navigate(routes.zoominOut);
       },
     },
 

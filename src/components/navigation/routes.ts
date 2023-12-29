@@ -4,4 +4,5 @@ export const routes = {
   restrictedBox: 'restrictedBox',
   prespectiveMenu: 'prespectiveMenu',
   onBoarding: 'onBoarding',
+  zoominOut: 'zoominOut',
 };

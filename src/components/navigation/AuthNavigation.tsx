@@ -10,6 +10,7 @@ import ClockSkia from '../screens/Clock';
 import RestrictedBox from '../screens/RestrictedBox';
 import PrespectiveMenu from '../screens/PrespectiveMenu';
 import OnBoarding from '../screens/OnBoarding';
+import ZoominOut from '../screens/ZoominOut';
 
 const Stack = createNativeStackNavigator();
 export default function AuthNavigation() {
@@ -26,6 +27,7 @@ export default function AuthNavigation() {
           component={PrespectiveMenu}
         />
         <Stack.Screen name={routes.onBoarding} component={OnBoarding} />
+        <Stack.Screen name={routes.zoominOut} component={ZoominOut} />
       </Stack.Navigator>
     </NavigationContainer>
   );
